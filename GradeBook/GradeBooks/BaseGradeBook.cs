@@ -111,8 +111,6 @@ namespace GradeBook.GradeBooks
         {
             int oneMore;
 
-            bool match = true;
-
             if ((studentType == StudentType.Honors || studentType == StudentType.DualEnrolled) && IsWeighted == true)
             {
                oneMore = 1;
